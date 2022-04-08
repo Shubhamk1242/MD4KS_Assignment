@@ -1,0 +1,80 @@
+<h1 mat-dialog-title>Add Question Form</h1>
+<div mat-dialog-content>
+    <form [formGroup]="QuestionForm">
+        <mat-form-field appearance="outline">
+            <mat-label>Que ID</mat-label>
+            <input formControlName="QueID" matInput type="number" placeholder="Placeholder">
+        </mat-form-field>
+    
+        <mat-form-field appearance="outline">
+            <mat-label>Que Name</mat-label>
+            <input formControlName="QueName" matInput placeholder="Placeholder">
+        </mat-form-field>
+    
+        <mat-form-field appearance="outline">
+            <mat-label>Option a</mat-label>
+            <input formControlName="Option_a" matInput placeholder="Option a">
+        </mat-form-field>
+    
+        <mat-form-field appearance="outline">
+            <mat-label>Option b</mat-label>
+            <input formControlName="Option_b" matInput placeholder="Option b">
+        </mat-form-field>
+    
+        <mat-form-field appearance="outline">
+            <mat-label>Option c</mat-label>
+            <input formControlName="Option_c" matInput placeholder="Option c">
+        </mat-form-field>
+    
+        <mat-form-field appearance="outline">
+            <mat-label>Option d</mat-label>
+            <input formControlName="Option_d" matInput placeholder="Option d">
+        </mat-form-field>
+    
+        <mat-form-field appearance="outline">
+            <mat-label>Option e</mat-label>
+            <input formControlName="Option_e" matInput placeholder="Option e">
+        </mat-form-field>
+    
+        <mat-form-field appearance="outline">
+            <mat-label>Answer</mat-label>
+            <mat-select formControlName="Answer" aria-placeholder="Answer">
+                <mat-option value="Option a">Option a</mat-option>
+                <mat-option value="Option b">Option b</mat-option>
+                <mat-option value="Option c">Option c</mat-option>
+                <mat-option value="Option d">Option d</mat-option>
+                <mat-option value="Option e">Option e</mat-option>
+            </mat-select>
+        </mat-form-field>
+    
+        <mat-form-field appearance="outline">
+            <mat-label>Level</mat-label>
+            <input formControlName="Level" matInput placeholder="Level">
+        </mat-form-field>
+    
+        <mat-form-field appearance="outline">
+            <mat-label>Time</mat-label>
+            <input formControlName="Time" matInput placeholder="Time">
+        </mat-form-field>
+    
+        <mat-form-field appearance="outline">
+            <mat-label>Type</mat-label>
+            <input formControlName="Type" matInput placeholder="Type">
+        </mat-form-field>
+    
+        <mat-form-field appearance="outline">
+            <mat-label>Section</mat-label>
+            <input formControlName="Section" matInput placeholder="Section">
+        </mat-form-field>
+    
+        <mat-form-field appearance="outline">
+            <mat-label>Subject</mat-label>
+            <input formControlName="Subject" matInput placeholder="Subject">
+        </mat-form-field>
+    </form>
+</div>
+
+<div mat-dialog-action [align]="'end'">
+    <button mat-raised-button color="warn" mat-dialog-close="">Cancel</button>
+    <button style="margin-left:8px;" mat-raised-button color="primary" (click)="addQuestions()" >{{actionBtn}}</button>
+</div>

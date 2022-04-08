@@ -1,0 +1,62 @@
+{
+  "QuestionList": [
+    {
+      "QueID": 1,
+      "QueName": "what is angular?",
+      "Option_a": "framework",
+      "Option_b": "Java Framework",
+      "Option_c": "Javascript Framework",
+      "Option_d": "Web development language",
+      "Option_e": "a,c,d are correct",
+      "Answer": "Option e",
+      "Level": "simple",
+      "Time": "10 sec",
+      "Type": "MCQ",
+      "Section": "NA",
+      "Subject": "Web Technology",
+      "id": 1
+    },
+    {
+      "QueID": 2,
+      "QueName": "What is node?",
+      "Option_a": "backend",
+      "Option_b": "frondend",
+      "Option_c": "java script framework",
+      "Option_d": "java framework",
+      "Option_e": "both a and c",
+      "Answer": "Option e",
+      "Level": "simple",
+      "Time": "10 sec",
+      "Type": "MCQ",
+      "Section": "Frameworks",
+      "Subject": "Web Technology",
+      "id": 3
+    },
+    {
+      "QueID": 3,
+      "QueName": "XYZ",
+      "Option_a": "A",
+      "Option_b": "B",
+      "Option_c": "C",
+      "Option_d": "D",
+      "Option_e": "E",
+      "Answer": "Option b",
+      "Level": "Easy",
+      "Time": "10 sec",
+      "Type": "ABCX",
+      "Section": "4",
+      "Subject": "AI",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
